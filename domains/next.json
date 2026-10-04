@@ -1,1 +1,9 @@
-{"owner":{"github":"Abinanth-A"},"records":{"CNAME":"abinanth-a.github.io"}}
+{
+  "owner": {
+    "github": "Abinanth-A"
+  },
+  "description": "A widget based todo app ",
+  "records": {
+    "CNAME": "3bb24cfeee143234.vercel-dns-017.com."
+  }
+}
