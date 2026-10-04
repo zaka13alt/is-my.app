@@ -53,6 +53,7 @@ jobs:
     steps:
       # --match-head-commit makes sure we merge exactly the commit that was validated.
       - name: Merge
+        id: merge
         run: gh pr merge "$PR_NUMBER" --repo "$REPO" --squash --match-head-commit "$SHA"
         env:
           GH_TOKEN: ${{ github.token }}
@@ -64,6 +65,13 @@ jobs:
       # branch, so a queued run replacing another pending one never loses work.
       - name: Publish
         run: gh workflow run publish.yml --repo "$REPO" --ref main -f target=stale
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+      # Refresh the public registry even if DNS or hosted-app publishing fails to start.
+      - name: Update website
+        if: ${{ !cancelled() && steps.merge.outcome == 'success' }}
+        run: gh workflow run site.yml --repo "$REPO" --ref main
         env:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
