@@ -1,1 +1,9 @@
-{"owner": {"github": "ArmZOfficial"}, "description": "Mixing & mastering studio: portfolio and commissions", "records": {"CNAME": "589b8c23b9a80a01.vercel-dns-017.com."}}
+{
+  "owner": {
+    "github": "ArmZOfficial"
+  },
+  "description": "Mixing & mastering studio: portfolio and commissions",
+  "records": {
+    "CNAME": "armz-mix.netlify.app"
+  }
+}
