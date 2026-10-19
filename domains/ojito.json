@@ -1,0 +1,6 @@
+{
+  "$schema": "../schema/domain.schema.json",
+  "owner": { "github": "rafaeldavidgg" },
+  "description": "Ojito, app open-source de listas de deseos para uso personal, no comercial",
+  "records": { "CNAME": "ojito-ekor.onrender.com" }
+}
