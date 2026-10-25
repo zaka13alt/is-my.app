@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "github": "lingion",
+    "email": "lingion@hrbeu.edu.cn"
+  },
+  "description": "Sleepy — open-source Android schedule/course-table app site (Harbin Engineering University student project), non-commercial",
+  "records": {
+    "CNAME": "sleepy-site-d0e.pages.dev"
+  }
+}
