@@ -1,1 +1,8 @@
-{"owner":{"github":"bluvs"},"deploy":{"repo":"bluvs/VStrategy","build":"npm run build","output":"dist"}}
+{
+  "owner": {
+    "github": "bluvs"
+  },
+  "records": {
+    "CNAME": "valostrat-rzvs.onrender.com"
+  }
+}
