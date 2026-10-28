@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/domain.schema.json",
+  "owner": {
+    "github": "lingion",
+    "email": "lingion@hrbeu.edu.cn"
+  },
+  "description": "Google Search Console domain verification record for sleepy.is-my.app (CNAME method, random host label; the apex already has a CNAME so TXT cannot coexist there)",
+  "records": {
+    "CNAME": "gv-tfuvhxiiyumowp.dv.googlehosted.com"
+  }
+}
