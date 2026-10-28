@@ -1,0 +1,6 @@
+{
+  "$schema": "../schema/domain.schema.json",
+  "owner": { "github": "CasperOng", "email": "casperong@casperong.xyz" },
+  "description": "An attendance-taking system for events.",
+  "records": { "CNAME": "cname.vercel-dns.com" }
+}
