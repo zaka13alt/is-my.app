@@ -1,0 +1,1 @@
+{"owner":{"github":"bluvs"},"deploy":{"repo":"bluvs/VStrategy","build":"npm run build","output":"dist"}}
