@@ -1,0 +1,6 @@
+{
+  "$schema": "../schema/domain.schema.json",
+  "owner": { "github": "AcideFluorhydrique" },
+  "description": "Forkray: v2rayNG built reproducibly from source, with freely licensed routing data",
+  "records": { "CNAME": "acidefluorhydrique.github.io" }
+}
