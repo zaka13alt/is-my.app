@@ -1,0 +1,6 @@
+{
+  "$schema": "../schema/domain.schema.json",
+  "owner": { "github": "sudoscratchy", "email": "sudoscratchy@gmail.com" },
+  "description": "a cart optimizer chrome extension for digikala ,one of largest e-commerce platform in iran",
+  "records": { "CNAME": "sudoscratchy.github.io" }
+}
