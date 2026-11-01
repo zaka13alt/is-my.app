@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "github": "web-production-site"
+  },
+  "description": "Elite Chess game",
+  "records": {
+    "CNAME": "web-production-site.github.io"
+  }
+}
