@@ -1,0 +1,6 @@
+{
+  "$schema": "../schema/domain.schema.json",
+  "owner": { "github": "kamaludin68" },
+  "description": "Panduan Sholat & Wudhu Sesuai Sunnah - PWA belajar sholat dan wudhu dengan dalil sahih.",
+  "records": { "CNAME": "kamaludin68.github.io" }
+}
