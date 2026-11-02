@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "github": "TheDeveloperSam"
+  },
+  "description": "Vercel domain ownership verification",
+  "records": {
+    "TXT": "vc-domain-verify=classroomly.is-my.app,99bc1e12c95b24f2ca40"
+  }
+}
