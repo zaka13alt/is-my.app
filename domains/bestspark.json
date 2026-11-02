@@ -1,0 +1,6 @@
+{
+  "$schema": "../schema/domain.schema.json",
+  "owner": { "github": "BestSpark687090", "email": "bestspark@bestspark.org" },
+  "description": "Games site.",
+  "records": { "A": ["15.204.67.205"] }
+}
